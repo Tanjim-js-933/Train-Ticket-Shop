@@ -1,0 +1,159 @@
+* {
+    font-family: 'Roboto' , sans-serif;
+}
+body{
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(4 ,9, 30 ,0.7) , rgba(4 ,9 ,30, 0.7)) ,  url(img/Background.jpg);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+.title{
+    text-align: center;
+    padding-top: 130px;
+}
+.f1{
+    font-size: 50px;
+    color: #fff;
+}
+.title p{
+    color: #fff;
+    font-size: 20px;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 6px 25px;
+    border-radius: 30px;
+    margin-left: 30px;
+    transition: 0.55s;
+}
+.btn:hover{
+    background: #fff;
+    color: #000;
+}
+@media(max-width: 700px){
+    body{
+        height: 170vh;
+    }
+    .header{
+        padding-top: 10px;
+    }
+    .f1{
+        flex-wrap: wrap;
+    }
+    td{
+        padding: 100px;
+
+    }
+    td i{
+        display: flex;
+    }
+}
+
+
+
+/* -----------main-page------------- */
+.head{
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
+}
+.location{
+    width: 80%;
+    margin: auto;
+}
+.location iframe{
+    width: 100%;
+}
+.row{
+    margin: 80px 0;
+    color: #fff;
+    padding-left: 100px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    background: #000;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+    border-color: #000;
+    outline: none;
+}
+td i{
+    margin: 10px;
+    color: #fff;
+}
+.copy{
+    text-align: center;
+    padding-top: 50px;
+}
+.login-box{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: #fff;
+}
+.login-box h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid #000;
+    margin-bottom: 50px;
+    padding: 30px 0;
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 5px solid #000;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #fff;
+    font-size: 18px;
+    float: left;
+    margin: 0 10px;
+}
+.button{
+    width: 100%;
+    background: none;
+    border: 5px solid #000;
+    cursor: pointer;
+    color: #fff;
+    margin: 12px 0;
+    padding: 5px;
+    font-size: 18px;
+}
+ .btn1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.btn1 a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn1 a:hover{
+    text-decoration: underline;
+}
